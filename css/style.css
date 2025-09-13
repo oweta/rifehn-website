@@ -9160,3 +9160,38 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.team-member {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.team-member img {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member .card-body h5 {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.team-member .card-body p {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.subheading {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #1E90FF;
+  font-weight: 700;
+  text-transform: uppercase;
+}
